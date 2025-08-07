@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EbukasGift2026 -Wedding Invitation</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <img
+            class="couple-names"
+            src="/Images/eb.png"
+            alt="ebukasgift logo"
+          />
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#our-story" class="nav-link">Our Story</a></li>
+          <li><a href="#details" class="nav-link">Details</a></li>
+          <li><a href="#gifting" class="nav-link">Gifting</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-image">
+          <!-- engagement photo -->
+          <img
+            src="/Images/BODU9199 copy.jpg"
+            alt="EbukasGift2026"
+            class="couple-photo"
+          />
+        </div>
+        <p class="hero-subtitle">You are caudally invited to</p>
+        <h1 class="hero-title">Ebuka's_Gift 2026</h1>
+        <div class="wedding-date">
+          <p class="date-text">31st January 2026</p>
+          <p class="venue-text">Streams of life Church, Wuse, Abuja.</p>
+        </div>
+        <div class="countdown" id="countdown">
+          <div class="countdown-item">
+            <span class="countdown-number" id="days">00</span>
+            <span class="countdown-label">Days</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-number" id="hours">00</span>
+            <span class="countdown-label">Hours</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-number" id="minutes">00</span>
+            <span class="countdown-label">Minutes</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-number" id="seconds">00</span>
+            <span class="countdown-label">Seconds</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-decoration">
+        <i class="fas fa-heart"></i>
+      </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section id="our-story" class="story-section">
+      <div class="container">
+        <h2 class="section-title">Our Love Story</h2>
+
+        <div class="story-timeline">
+          <div class="story-item">
+            <div class="story-image">
+              <!--first meeting photo -->
+              <img src="/Images/BODU9178 copy.jpg" alt="First Meeting" />
+            </div>
+            <div class="story-content">
+              <h3>How We Met</h3>
+              <p class="story-date">Spring 2018</p>
+              <p>
+                Our story began on a beautiful spring day at the local coffee
+                shop. Sarah was reading her favorite book when James
+                accidentally bumped into her table, spilling coffee everywhere.
+                What started as an embarrassing moment turned into hours of
+                conversation and the beginning of something magical.
+              </p>
+            </div>
+          </div>
+
+          <div class="story-item reverse">
+            <div class="story-image">
+              <!--first date photo -->
+              <img src="/Images/DA-23.jpg" alt="First Date" />
+            </div>
+            <div class="story-content">
+              <h3>First Date</h3>
+              <p class="story-date">May 2018</p>
+              <p>
+                Our first official date was a picnic in Central Park. James
+                brought homemade sandwiches (which were surprisingly good!), and
+                Sarah brought her guitar. We spent the entire afternoon talking,
+                laughing, and Sarah even played a few songs. It was perfect.
+              </p>
+            </div>
+          </div>
+
+          <div class="story-item">
+            <div class="story-image">
+              <!--proposal photo -->
+              <img src="/Images/BODU9162 copy.jpg" alt="Proposal" />
+            </div>
+            <div class="story-content">
+              <h3>The Proposal</h3>
+              <p class="story-date">December 2023</p>
+              <p>
+                James proposed during our winter vacation in the mountains.
+                After a long hike to our favorite viewpoint, he got down on one
+                knee just as the sun was setting. With tears of joy and a
+                resounding "YES!", we knew our forever had officially begun.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wedding Details Section -->
+    <section id="details" class="details-section">
+      <div class="container">
+        <h2 class="section-title">Wedding Details</h2>
+
+        <div class="details-grid">
+          <div class="detail-card">
+            <div class="detail-icon">
+              <i class="fas fa-calendar-alt"></i>
+            </div>
+            <h3>When</h3>
+            <p class="detail-main">Saturday,<br />31st January 2026</p>
+            <p class="detail-sub">Ceremony: 4:00 PM<br />Reception: 6:00 PM</p>
+          </div>
+
+          <div class="detail-card">
+            <div class="detail-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h3>Where</h3>
+            <p class="detail-main">Streams of life Church, Wuse, Abuja</p>
+            <p class="detail-sub">
+              123 Wedding Lane<br />Napa Valley, CA 94558
+            </p>
+            <button class="detail-button" onclick="openMap()">
+              Get Directions
+            </button>
+          </div>
+
+          <div class="detail-card">
+            <div class="detail-icon">
+              <i class="fas fa-tshirt"></i>
+            </div>
+            <h3>Dress Code</h3>
+            <p class="detail-main">Garden Party Attire</p>
+            <p class="detail-sub">
+              Semi-formal wear<br />Light colors preferred
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <div class="detail-icon">
+              <i class="fas fa-hotel"></i>
+            </div>
+            <h3>Accommodations</h3>
+            <p class="detail-main">Hotel Recommendations</p>
+            <p class="detail-sub">
+              Special rates available<br />Book by May 1st
+            </p>
+            <button class="detail-button" onclick="showHotels()">
+              View Hotels
+            </button>
+          </div>
+        </div>
+
+        <div class="schedule-section">
+          <h3>Wedding Day Schedule</h3>
+          <div class="schedule-timeline">
+            <div class="schedule-item">
+              <div class="schedule-time">3:30 PM</div>
+              <div class="schedule-event">Guest Arrival & Cocktails</div>
+            </div>
+            <div class="schedule-item">
+              <div class="schedule-time">4:00 PM</div>
+              <div class="schedule-event">Wedding Ceremony</div>
+            </div>
+            <div class="schedule-item">
+              <div class="schedule-time">4:30 PM</div>
+              <div class="schedule-event">Photos & Mingling</div>
+            </div>
+            <div class="schedule-item">
+              <div class="schedule-time">6:00 PM</div>
+              <div class="schedule-event">Reception & Dinner</div>
+            </div>
+            <div class="schedule-item">
+              <div class="schedule-time">8:00 PM</div>
+              <div class="schedule-event">Dancing & Celebration</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gifting Section -->
+    <section id="gifting" class="gifting-section">
+      <div class="container">
+        <h2 class="section-title">Wedding Gifts</h2>
+        <p class="section-subtitle">
+          Your presence is the greatest gift, but if you'd like to contribute to
+          our new journey together, here are some items that would mean the
+          world to us.<br />
+        </p>
+
+        <div class="gifts-grid" id="giftsGrid"></div>
+
+        <div class="gift-cart" id="giftCart" style="display: none">
+          <h3>Selected Gifts</h3>
+          <div class="cart-items" id="cartItems"></div>
+          <div class="cart-total">
+            <strong>Total: ₦<span id="cartTotal">0</span></strong>
+          </div>
+          <button class="cart-button" onclick="proceedToPayment()">
+            Proceed to Payment
+          </button>
+          <button class="cart-button secondary" onclick="clearCart()">
+            Clear Cart
+          </button>
+        </div>
+        <p class="section-subtitle">
+          If you would like to gift cash, you may send your gift to:<br />
+          <strong>Account Name:</strong> Gift O. & Ebuka I.<br />
+          <strong>Account Number:</strong> 1234567890<br />
+          <strong>Bank:</strong> Zenith Bank
+        </p>
+      </div>
+    </section>
+
+    <!-- Well Wishes Section -->
+    <section id="wishes" class="wishes-section">
+      <div class="container">
+        <h2 class="section-title">Send Your Wishes</h2>
+        <p class="section-subtitle">
+          Can't make it to the wedding or prefer to send your well wishes? We'd
+          love to hear from you!
+        </p>
+
+        <form
+          action="https://formsubmit.co/ebukasgift2026@gmail.com"
+          method="POST"
+          class="wishes-form"
+          id="wishesForm"
+        >
+          <div class="form-group">
+            <input
+              type="text"
+              id="wishName"
+              name="name"
+              required
+              placeholder="Your Name"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              id="wishEmail"
+              name="email"
+              required
+              placeholder="Your Email"
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              id="wishMessage"
+              name="message"
+              required
+              placeholder="Your message to the couple..."
+              rows="5"
+            ></textarea>
+          </div>
+          <button type="submit" class="submit-button">Send Wishes</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          #EbukasGift2026. Made with
+          <i class="fas fa-heart"></i>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Gift Selection Modal -->
+    <div id="giftModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3 id="modalGiftTitle"></h3>
+        <img id="modalGiftImage" src="" alt="" />
+        <p id="modalGiftDescription"></p>
+        <p class="gift-price">₦<span id="modalGiftPrice"></span></p>
+        <div class="quantity-selector">
+          <label for="giftQuantity">Quantity:</label>
+          <select id="giftQuantity">
+            <option value="1">1</option>
+          </select>
+        </div>
+        <button class="add-to-cart-button" onclick="addToCart()">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
