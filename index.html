@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EbukasGift2026 -Wedding Invitation</title>
+    <title>EbukasGift2026 - Wedding Invitation</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
@@ -23,27 +23,8 @@
   </head>
   <body>
     <!-- Navigation -->
-    <!-- <nav class="navbar">
-      <div class="nav-logo">
-        <img src="/Images/eb.png" alt="ebukasgift logo" />
-      </div>
-      <div class="nav-container">
-        <div class="nav-text"><h1>ADA & EBUKA</h1></div>
-        <ul class="nav-menu">
-          <li><a href="#home" class="nav-link">Home</a></li>
-          <li><a href="#our-story" class="nav-link">Our Story</a></li>
-          <li><a href="#details" class="nav-link">Details</a></li>
-          <li><a href="#gifting" class="nav-link">Gifting</a></li>
-        </ul>
-        <div class="hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-    </nav> -->
 
-    <nav class="navbar">
+    <nav class="navbar" style="position: fixed">
       <div class="nav-logo">
         <img src="/Images/eb.png" alt="Ada & Ebuka Wedding Logo" />
       </div>
@@ -67,46 +48,39 @@
       </div>
     </nav>
 
-    <!-- Mobile Menu -->
-    <div class="mobile-menu">
-      <ul>
-        <li><a href="#home" class="nav-link">Home</a></li>
-        <li><a href="#our-story" class="nav-link">Our Story</a></li>
-        <li><a href="#details" class="nav-link">Details</a></li>
-        <li><a href="#gifting" class="nav-link">Gifting</a></li>
-      </ul>
-    </div>
     <!-- Home Section -->
-
-    <div id="carouselExampleIndicators" class="carousel slide">
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-      </div>
+    <div
+      id="carouselExampleInterval"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="/Images/aaaa.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img
+            src="/Images/carose1.jpg"
+            class="d-block w-100"
+            alt="EbukasGift2026"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="/Images/Carose2.jpg"
+            class="d-block w-100"
+            alt="EbukasGift2026"
+          />
         </div>
         <div class="carousel-item">
-          <img src="/Images/carosel.jpg" class="d-block w-100" alt="..." />
+          <img
+            src="/Images/carose1.jpg"
+            class="d-block w-100"
+            alt="EbukasGift2026"
+          />
         </div>
       </div>
       <button
         class="carousel-control-prev"
         type="button"
-        data-bs-target="#carouselExampleIndicators"
+        data-bs-target="#carouselExampleInterval"
         data-bs-slide="prev"
       >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -115,14 +89,13 @@
       <button
         class="carousel-control-next"
         type="button"
-        data-bs-target="#carouselExampleIndicators"
+        data-bs-target="#carouselExampleInterval"
         data-bs-slide="next"
       >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-
     <!-- Our Story Section -->
     <section id="our-story" class="story-section">
       <div class="container">
@@ -167,7 +140,7 @@
           <div class="story-item">
             <div class="story-image">
               <!--proposal photo -->
-              <img src="/Images/BODU9162 copy.jpg" alt="Proposal" />
+              <img src="/Images/BODU9162 copy.webp" alt="Proposal" />
             </div>
             <div class="story-content">
               <h3>The Proposal</h3>
@@ -367,9 +340,6 @@
             <span class="countdown-label">Seconds</span>
           </div>
         </div>
-      </div>
-      <div class="hero-decoration">
-        <i class="fas fa-heart"></i>
       </div>
     </section>
 
